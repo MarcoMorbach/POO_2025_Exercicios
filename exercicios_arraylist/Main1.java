@@ -15,7 +15,7 @@ public class Main1 {
 		System.out.println(num.size());
 		
 		if(num.contains(11)) {
-			System.out.println("O numero 11 esta na lista");
+			System.out.println("O numero 11 esta na lista");    
 		}
 		//MELHORAR
 	}
