@@ -1,1 +1,1 @@
-Repositório para os códigos dos exercicios de ArrayList nas aulas de POO_CEUB
+Repositório para os códigos dos exercicios nas aulas de POO_CEUB
