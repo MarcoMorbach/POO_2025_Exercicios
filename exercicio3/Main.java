@@ -19,5 +19,4 @@ public class Main {
 		System.out.println(u1.getDep().getProfessor().getEspecialidade());
 
 	}
-
 }

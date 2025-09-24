@@ -2,10 +2,10 @@ package exercicio4;
 
 public class ItemPedido {
 	
-	private int quantidade;
+	private float quantidade;
 	private Produto produto;
 	
-	public int getQuantidade() {
+	public float getQuantidade() {
 		return quantidade;
 	}
 	public void setQuantidade(int quantidade) {
@@ -17,11 +17,11 @@ public class ItemPedido {
 	public void setProduto(Produto produto) {
 		this.produto = produto;
 	}
-	
-	public float getSubtotal(int quantidade,float getPreco()) {
+	public double getSubtotal() {
 		
-		   
+		return produto.getPreco() * quantidade;
 	}
 	
+
 
 }

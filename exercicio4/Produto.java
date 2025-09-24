@@ -3,7 +3,7 @@ package exercicio4;
 public class Produto {
 	
 	private String nome;
-	private float preco;
+	private double preco;
 	
 	public String getNome() {
 		return nome;
@@ -11,7 +11,7 @@ public class Produto {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public float getPreco() {
+	public double getPreco() {
 		return preco;
 	}
 	public void setPreco(float preco) {
